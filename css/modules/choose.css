@@ -1,0 +1,101 @@
+.page__choose {
+    margin-top: 50px;
+}
+
+.container {}
+
+.choose__body {
+    position: relative;
+    display: flex;
+}
+
+.choose__buttom {}
+
+.choose__button {
+    position: absolute;
+    width: 281px;
+    height: 281px;
+    background-color: #fbd42c;
+    border-radius: 50%;
+    left: 36%;
+    top: 35%;
+    font-size: 36px;
+    font-weight: 500;
+    color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.choose__box-one {
+    background-image: url(../../images/choose/03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    height: 720px;
+    width: 500px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+
+.choose__box-two {
+    background-image: url(../../images/choose/02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    height: 720px;
+    width: 500px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+@media (max-width: 821px) {
+    .choose__button {
+        left: 33%;
+    }
+}
+
+
+@media (max-width: 680px) {
+    .choose__button {
+        left: 26%;
+    }
+}
+
+@media (max-width: 500px) {
+    .choose__button {
+        left: 20%;
+    }
+}
+
+@media (max-width: 480px) {
+    .choose__button {
+        left: 28%;
+        font-size: 26px;
+        width: 200px;
+        height: 200px;
+        top: 42%;
+    }
+}
+
+@media (max-width: 370px) {
+    .choose__button {
+        left: 71px;
+    }
+}
+
+@media (max-width: 330px) {
+    .choose__button {
+        left: 79px;
+        font-size: 16px;
+        width: 140px;
+        height: 140px;
+        top: 45%;
+    }
+}

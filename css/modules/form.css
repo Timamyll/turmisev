@@ -1,0 +1,87 @@
+.page__from {
+    margin-top: 78px;
+    padding-bottom: 46px;
+}
+
+.container {}
+
+.form__body {}
+
+.form__title {
+    font-size: 48px;
+    font-weight: 400;
+    color: #93a2ad;
+}
+
+.from__input {}
+
+.input__data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 616px;
+    padding-top: 44px;
+}
+
+.form__names {}
+
+.form__names {
+    font-size: 24px;
+    font-weight: 300;
+    color: #1e1e1e;
+    padding-bottom: 13px;
+}
+
+.form__name,
+.form__family,
+.form__mail,
+.form__tel {
+    width: 265px;
+    height: 44px;
+    background-color: #e8eaec;
+    border: none;
+    padding: 15px;
+}
+
+.form__name::placeholder,
+.form__family::placeholder,
+.form__mail::placeholder,
+.form__tel::placeholder {
+    opacity: 0.63;
+    font-weight: 300;
+    color: #767676;
+}
+
+.form__familys {
+    font-size: 24px;
+    font-weight: 300;
+    color: #1e1e1e;
+    padding-bottom: 13px;
+}
+
+.form__tels {
+    font-size: 24px;
+    font-weight: 300;
+    color: #1e1e1e;
+    padding-bottom: 13px;
+}
+
+.form__mails {
+    font-size: 24px;
+    font-weight: 300;
+    color: #1e1e1e;
+    padding-bottom: 13px;
+}
+
+.bottom__form {
+    margin-top: 37px;
+}
+
+.form__button {
+    padding: 22px 46px 22px 46px;
+    background-color: #fbd42c;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+    font-size: 24px;
+    font-weight: 400;
+    color: #151515;
+}

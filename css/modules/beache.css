@@ -1,0 +1,61 @@
+.beach__page {
+    background-image: url(../../images/bg-beache.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    margin-top: 50px;
+}
+
+.container {}
+
+.beach__body {
+    display: flex;
+    align-items: center;
+    padding-top: 245px;
+    justify-content: center;
+    gap: 137px;
+    padding-left: 63px;
+}
+
+.beache__box {}
+
+.beache__title {
+    font-size: 60px;
+    font-weight: 400;
+    text-shadow: 0px 3px 7px #738397;
+    color: #ffffff;
+    max-width: 359px;
+}
+
+.beache__box-two {}
+
+.beache__text-one {
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-bottom: 33px;
+    max-width: 387px;
+}
+
+.beache__text-two {
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-bottom: 33px;
+    max-width: 387px;
+}
+
+.beache__text-three {
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-bottom: 33px;
+    max-width: 387px;
+}
+
+.beache__text-four {
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+}
