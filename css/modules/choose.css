@@ -2,7 +2,6 @@
     margin-top: 50px;
 }
 
-.container {}
 
 .choose__body {
     position: relative;
@@ -99,3 +98,93 @@
         top: 45%;
     }
 }
+
+
+.square {}
+
+.square-animation {
+    animation: wipe-enter 2s 1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    z-index: 1000;
+}
+
+.square-animations {
+    animation: wipe-enters 2s 1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    z-index: 1000;
+}
+
+
+@keyframes wipe-enter {
+    0% {
+        transform: none;
+    }
+
+    100% {
+        transform: translate(350px, 150px);
+    }
+}
+
+
+@keyframes wipe-enters {
+    0% {
+        transform: none;
+    }
+
+    100% {
+        transform: translate(-350px, 150px);
+    }
+}
+
+.square__imagess-fox {
+    position: absolute;
+    left: 970px;
+}
+
+
+.wrap {
+    display: flex;
+}
+
+.stage {
+    position: relative;
+    height: 250px;
+    margin-top: 252px;
+}
+
+.stage, .stage-footer {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.stage-footer {
+    margin: 10px
+}
+
+.square__imagess {
+    position: absolute;
+    left: -314px;
+}
+
+/* .square__imagesss {
+    animation: flight 3s 1;
+}
+
+@keyframes flight {
+    0% {
+        transform: none;
+    }
+
+    100% {
+        transform: translateX(500px);
+    }
+} */
