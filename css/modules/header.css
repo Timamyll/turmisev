@@ -175,6 +175,10 @@
     .xxs {
         margin-top: 62px;
     }
+
+    .slick-dots {
+        left: 45%;
+    }
 }
 
 @media (max-width: 426px) {
