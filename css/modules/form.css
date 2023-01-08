@@ -85,3 +85,22 @@
     font-weight: 400;
     color: #151515;
 }
+
+@media (max-width: 640px) {
+    .form__title {
+        font-size: 33px;
+    }
+
+    .input__data {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .form__name,
+    .form__family,
+    .form__mail,
+    .form__tel {
+        width: 100%;
+    }
+
+}

@@ -1,8 +1,9 @@
 .footer__page {
     background: #0e1215;
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     margin-top: 47px;
+
 }
 
 .footer__body {
@@ -90,4 +91,42 @@
 .footer__tel {
     font-size: 14px;
     color: #ffffff;
+}
+
+
+@media (max-width: 980px) {
+    .footer__link {
+        flex-wrap: wrap;
+    }
+
+    .footer__box-two {
+        flex-direction: column;
+    }
+
+    .footer__map iframe {
+        width: 100%;
+    }
+
+    .footer_title {
+        text-align: center;
+    }
+
+    .footer__tel-vox {
+        flex-direction: row;
+        padding-bottom: 25px;
+    }
+
+    .footer__body {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 370px) {
+    .footer__links {
+        font-size: 14px;
+    }
+
+    .footer__tel {
+        font-size: 12px;
+    }
 }
